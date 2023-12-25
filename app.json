@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Caça La Marieta",
+    "slug": "marietaapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/granota.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/granota.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lucascaez.App"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logoApp.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.lucascaez.App"
+    },
+    "web": {
+      "favicon": "./assets/marieta.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "defa8925-4388-4cca-b505-e52fe287fcbd"
+      }
+    },
+    "owner": "lucascaez"
+  }
+}

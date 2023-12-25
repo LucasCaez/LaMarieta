@@ -1,0 +1,14 @@
+import AudioRecorderPlayer from 'react-native-audio-recorder-player';
+
+const audioRecorderPlayer = new AudioRecorderPlayer();
+
+const startRecording = async () => {
+  const path = 'path/to/save/recording.mp4';
+  const result = await audioRecorderPlayer.startRecorder(path);
+  console.log('Recording started:', result);
+};
+
+const stopRecording = async () => {
+  const result = await audioRecorderPlayer.stopRecorder();
+  console.log('Recording stopped:', result);
+};
